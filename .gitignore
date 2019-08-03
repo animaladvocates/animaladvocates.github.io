@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+Gemfile.lock
+package-lock.json
+*.mp3
