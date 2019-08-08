@@ -105,8 +105,6 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
-    link: '/about/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
