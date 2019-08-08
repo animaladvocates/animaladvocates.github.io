@@ -4,7 +4,6 @@
       <div class='col'>
         <p class='footer-title'>{{ site.title }}</p>
         <p class='footer-description'>{{ site.description }}</p>
-        <p><a href="https://library.columbia.edu/libraries/ccoh/FAQ.html">Oral History Archives at Columbia</a>
         <p class='footer-copyright'>
           &copy; {{ site.copyright }}<br>
           Built with <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
@@ -13,12 +12,7 @@
       <div class='col'>
         <p class='footer-title'>Links</p>
         <p class='footer-links'>
-          {% for item in site.footer.links %}
-            <a href='{{ item.link | absolute_url }}'>
-              {{ item.label }}
-            </a>
-          {% unless forloop.last %} / {% endunless %}
-          {% endfor %}
+            <a href='{{site.baseurl}}/credits/'>Credits</a> | <a href="https://library.columbia.edu/libraries/ccoh/FAQ.html">OHAC</a> | <a href="mailto:oralhist@library.columbia.edu">Contact Us</a>
         </p>
         <p class='footer-logos'>
           {% for item in site.footer.logos %}

@@ -120,13 +120,6 @@ menu:
 #
 
 footer:
-  links:
-    - label: 'GitHub'
-      link: ''
-    - label: 'Credits'
-      link: '/credits'
-    - label: 'Contact'
-      link: ''
   logos:
     - img: '/img/logo.png'
 
