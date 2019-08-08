@@ -1,12 +1,5 @@
 <dl class='metadata-block'>
-  <dt>Transcription</dt>
-  {% for t in site.transcriptions %}
-  {% capture filename %}{{ t.relative_path | remove: "_transcriptions/" | remove: ".md" }}{% endcapture %}
-  {% if filename == page.pid %}{{t.content}}
-  {% endif %}
-{% endfor %}
-  <br>
-  <hr>
+
 
 
   {% for item in include.meta %}
@@ -33,4 +26,15 @@
       <dt>{{ item.label }}</dt>
       <dd>{{ value | strip }}</dd>
   {% endfor %}
+
+  <br>
+  <hr>
+
+    <dt>Transcription</dt>
+  {% for t in site.transcriptions %}
+  {% capture filename %}{{ t.relative_path | remove: "_transcriptions/" | remove: ".md" }}{% endcapture %}
+  {% if filename == page.pid %}{{t.content}}
+  {% endif %}
+{% endfor %}
+
 </dl>
