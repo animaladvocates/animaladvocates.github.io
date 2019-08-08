@@ -19,6 +19,7 @@
 # ~> https://jekyllrb.com/docs/configuration/options/
 
 title:            'Animal Advocates'
+subtitle:         'Oral History Archives at Columbia'
 description:      'The Animal Advocates Oral History Collection contains fourteen interviews with individuals who were involved in different areas of the movement to protect animals.'
 url:              ''
 baseurl:          '/advocates'

@@ -66,6 +66,12 @@ header & nav bar
     color: $accent-dark;
   }
 
+  h3.navbar-subtitle {
+    font-weight: 400;
+    color: gray;
+    font-size: 1.2rem;
+  }
+
   .navbar-toggler {
     background-color: $bg-color;
   }
@@ -268,6 +274,7 @@ content section
   max-width: 90%;
   width: $max-width;
   overflow: flex-wrap;
+  align-items: baseline;
 }
 
 .full-width {
